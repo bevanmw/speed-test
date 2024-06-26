@@ -6,7 +6,7 @@ function App() {
   const [message, setMessage] = useState("Checking");
 
   useEffect(() => {
-    if (mapboxglSupported.supported()) {
+    if (mapboxglSupported.supported({ failIfMajorPerformanceCaveat: true })) {
       setMessage("Supported");
     } else {
       setMessage("Not supported");
