@@ -16,7 +16,7 @@ function App() {
   return (
     <div className="relative">
       <div className="absolute inset-0">
-        <Canvas />
+        {message === "Supported" ? <Canvas /> : null}
       </div>
 
       <div className="h-dvh w-full flex justify-center items-center relative">
