@@ -19,7 +19,7 @@ function App() {
         {message === "Supported" ? <Canvas /> : null}
       </div>
 
-      <div className="h-dvh w-full flex justify-center items-center relative">
+      <div className="h-dvh w-full flex flex-col justify-center items-center relative">
         <h1 className="text-xl">Status:</h1>
         <h1 className="text-xl">{message}</h1>
       </div>
