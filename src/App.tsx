@@ -20,6 +20,7 @@ function App() {
       </div>
 
       <div className="h-dvh w-full flex justify-center items-center relative">
+        <h1 className="text-xl">Status:</h1>
         <h1 className="text-xl">{message}</h1>
       </div>
     </div>
